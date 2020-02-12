@@ -1,0 +1,475 @@
+body {
+  margin: 0;
+  font-family: 'Kalam', cursive;
+
+}
+header .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex;
+}
+header li{
+  list-style: none;
+  margin-right: 15px;
+}
+header a{
+  text-decoration:none;
+}
+
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header{
+  background:linear-gradient(rgba(232, 139, 252, .6), rgba(96, 171, 245, .6)), url(../imagenes/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+#contenedor-titulo-flex{
+  display: flex;
+  justify-content: center;
+  margin: 55vh 0;
+}
+h1{
+  font-size: 60px;
+  color: #fff
+
+}
+
+.contenedor-titulo{
+  text-align: center;
+  margin-left: 165px;
+}
+.contenedor-titulo a,#sobre-mi a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+p.logo{
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color: #fff;
+}
+
+/*---------seccion sobre mi------------*/
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+
+}
+
+#sobre-mi .contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+}
+
+#sobre-mi .texto{
+  width: 42%;
+}
+
+.contenedor-sobremi img{
+box-shadow: 0 12px 30px 0 rgba(90, 211, 255, .9);
+
+}
+/*-----------sección Servicios--------------*/
+.contenedor-servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #fff
+}
+.servicio{
+width: 24%;
+padding: 34px 30px 38px 30px;
+border-radius: 10px;
+margin-bottom: 40px;
+position: relative;
+}
+.servicio h4{
+  font-size: 30px;
+  margin: 0;
+}
+.servicio p{
+  margin-bottom: 20px;
+  height: 194px;
+}
+.contenedor-servicios .violeta{
+  background-image: linear-gradient(to top, #DA6EFF , #9D09CF);
+  box-shadow: 0 12px 30px 0 rgba(219, 0, 222, .9);
+}
+.contenedor-servicios .celeste{
+  background-image: linear-gradient(to top, #EB80F0, #A404AB);
+  box-shadow: 0 12px 30px 0 rgba(166, 0, 222, .9);
+}
+
+.icono{
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+/*------------CONCIERTOS-------------*/
+#conciertos-presentacion{
+
+   background:#FCF4FF ;
+}
+
+.contenedor-titulo a,#conciertos-presentacion a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#conciertos-presentacion .contenedor-conciertos{
+  display: flex;
+  justify-content: space-around;
+}
+
+#conciertos-presentacion .texto{
+  width: 42%;
+}
+
+.contenedor-titulo a,#conciertos-presentacion2 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#conciertos-presentacion2 .contenedor-conciertos2{
+  display: flex;
+  justify-content: space-around;
+}
+
+#conciertos-presentacion2 .texto{
+  width: 42%;
+}
+
+
+/*------------MUSICA-------------*/
+
+#musica-videos{
+
+   background:#FCF4FF ;
+}
+.contenedor-titulo a,#musica-videos a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#musica-videos .contenedor-musica{
+  display: flex;
+  justify-content: space-around;
+}
+
+#musica-videos .texto{
+  width: 42%;
+}
+
+#foto-galeria{
+
+   background:#FCF4FF ;
+}
+
+/*album2*/
+.contenedor-titulo a,#musica-videos2 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#musica-videos2 .contenedor-musica2{
+  display: flex;
+  justify-content: space-around;
+}
+
+#musica-videos2 .texto{
+  width: 42%;
+}
+
+
+/*------------GALERIA-------------*/
+
+button.owl-prev,button.owl-next{
+ font-size: 40px !important;
+}
+
+span{
+ color: #71bcfa:
+}
+
+
+.contenedor-titulo a,#foto-galeria a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+#foto-galeria{
+
+   background:#FCF4FF ;
+}
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#foto-galeria .contenedor-fotos{
+  display: flex;
+  justify-content: space-around;
+}
+
+#foto-galeria .texto{
+  width: 42%;
+}
+
+/*-----------PRESENTACIONES------------*/
+
+.contenedor-titulo a,#presentaciones-gira a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira .contenedor-presentaciones{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira .texto{
+  width: 80%;
+}
+
+
+
+.contenedor-titulo a,#presentaciones-gira1 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira1 .contenedor-presentaciones1{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira1 .texto{
+  width: 80%;
+}
+
+.contenedor-titulo a,#presentaciones-gira2 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira2 .contenedor-presentaciones2{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira2 .texto{
+  width: 80%;
+}
+
+
+.contenedor-titulo a,#presentaciones-gira3 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira3 .contenedor-presentaciones3{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira3 .texto{
+  width: 80%;
+}
+
+.contenedor-titulo a,#presentaciones-gira4 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira4 .contenedor-presentaciones4{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira4 .texto{
+  width: 80%;
+}
+
+
+.contenedor-titulo a,#presentaciones-gira5 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira5 .contenedor-presentaciones5{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira5 .texto{
+  width: 80%;
+}
+
+.contenedor-titulo a,#presentaciones-gira6 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira6 .contenedor-presentaciones6{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira6 .texto{
+  width: 80%;
+}
+
+.contenedor-titulo a,#presentaciones-gira7 a{
+  font-size: 30px;
+  color: #fff;
+  background: #DAA0FF;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#presentaciones-gira7 .contenedor-presentaciones7{
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentaciones-gira7 .texto{
+  width: 80%;
+}
